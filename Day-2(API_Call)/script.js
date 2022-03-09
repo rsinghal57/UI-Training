@@ -1,11 +1,14 @@
+
 async function fetchDetails(){
     try {
         let response=await fetch('https://reqres.in/api/users?page=2');
         let data=await response.json();
         data=data.data;
+        a=data;
         console.log(data);
         console.log("Inside function");
         display(data);
+        return data;
     } catch (error) {
         console.log("Error occured",error);
     }
@@ -28,4 +31,11 @@ function display(arr)
 }
 
 
-fetchDetails();
+
+(async () => {
+    var a=await fetchDetails();
+    console.log(a);
+  })();
+
+
+
