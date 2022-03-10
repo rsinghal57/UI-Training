@@ -1,0 +1,116 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(rgba(6, 6, 145, 0.945), rgb(131, 217, 238));
+  height: 100vh;
+  overflow: hidden;
+}
+#maintext{
+  position: relative;
+    color: white;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: lighter;
+   
+}
+#resetmaintext{
+    position: relative;
+    color: white;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: lighter;
+}
+.center{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  background: white;
+  border-radius: 10px;
+  /* box-shadow: 10px 10px 15px rgba(0,0,0,0.05); */
+}
+
+.center h1{
+  text-align: center;
+  padding: 10px 0;
+  background-color: rgb(131, 217, 238);
+  margin-top: 0%;
+  border-top-right-radius:10px;
+  border-top-left-radius:10px;
+  color: white;
+  font-weight: 500;
+  /* border-bottom: 1px solid silver; */
+}
+.center form{
+  padding: 0 40px;
+  box-sizing: border-box;
+}
+.txt_field{
+  position: relative;
+  /* border-bottom: 2px solid #adadad; */
+  margin: 0 0 20px 0;
+}
+.txt_field input{
+  width: 100%;
+  padding: 0 5px;
+  /* height: 40px; */
+  font-size: 16px;
+  border: 0.5px solid grey;
+  background: none;
+  outline: none;
+}
+h4{
+    margin-bottom: 0px;
+}
+.pass{
+  margin: -5px 0 20px 5px;
+  color: #20acec;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+#submitButton{
+    width: 80px;
+    height: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0.5px solid;
+    background: rgb(131, 217, 238);
+    border-radius: 7px;
+    font-size: 13px;
+    color: #e9f4fb;
+    font-weight:600;
+    cursor: pointer;
+    outline: none;
+}
+#submitButton:hover{
+    border-color: rgb(14, 54, 231);
+  color: #20acec;
+  transition: .5s;
+}
+
+#resetEmail:hover{
+  border-color: rgb(14, 54, 231);
+  color: #20acec;
+  transition: .5s;
+}
+
+#resetEmail{
+
+        width: 130px;
+        height: 40px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border: 0.5px solid;
+        background: rgb(131, 217, 238);
+        border-radius: 7px;
+        font-size: 13px;
+        color: #e9f4fb;
+        font-weight:600;
+        cursor: pointer;
+        outline: none;
+    
+}
