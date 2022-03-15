@@ -1,2 +1,0 @@
-**/FunctionalProgramming/index.html
-**/FunctionalProgramming/script.html

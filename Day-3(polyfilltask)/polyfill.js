@@ -11,6 +11,8 @@ let arr=[1,2,3,4,5];
 let output1=arr.myMap((i)=>{
     return i*2;
 })
+
+
 //Using default map
 let output2=arr.map((i)=>{
     return 2*i;

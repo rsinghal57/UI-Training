@@ -4,7 +4,6 @@ async function fetchDetails(){
         let response=await fetch('https://reqres.in/api/users?page=2');
         let data=await response.json();
         data=data.data;
-        a=data;
         console.log(data);
         console.log("Inside function");
         display(data);
